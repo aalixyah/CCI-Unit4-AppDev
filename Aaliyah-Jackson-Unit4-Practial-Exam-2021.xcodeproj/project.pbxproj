@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		687FB9D0266BBF5C004850D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FB9CF266BBF5C004850D1 /* AppDelegate.swift */; };
+		687FB9D2266BBF5C004850D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FB9D1266BBF5C004850D1 /* SceneDelegate.swift */; };
+		687FB9D4266BBF5C004850D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FB9D3266BBF5C004850D1 /* ViewController.swift */; };
+		687FB9D7266BBF5C004850D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687FB9D5266BBF5C004850D1 /* Main.storyboard */; };
+		687FB9D9266BBF5F004850D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687FB9D8266BBF5F004850D1 /* Assets.xcassets */; };
+		687FB9DC266BBF5F004850D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687FB9DA266BBF5F004850D1 /* LaunchScreen.storyboard */; };
+		687FB9E7266BBF60004850D1 /* Aaliyah_Jackson_Unit4_Practial_Exam_2021Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FB9E6266BBF60004850D1 /* Aaliyah_Jackson_Unit4_Practial_Exam_2021Tests.swift */; };
+		687FB9F2266BBF60004850D1 /* Aaliyah_Jackson_Unit4_Practial_Exam_2021UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FB9F1266BBF60004850D1 /* Aaliyah_Jackson_Unit4_Practial_Exam_2021UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		687FB9E3266BBF60004850D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 687FB9C4266BBF5C004850D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 687FB9CB266BBF5C004850D1;
+			remoteInfo = "Aaliyah-Jackson-Unit4-Practial-Exam-2021";
+		};
+		687FB9EE266BBF60004850D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 687FB9C4266BBF5C004850D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 687FB9CB266BBF5C004850D1;
+			remoteInfo = "Aaliyah-Jackson-Unit4-Practial-Exam-2021";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		687FB9CC266BBF5C004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aaliyah-Jackson-Unit4-Practial-Exam-2021.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		687FB9CF266BBF5C004850D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		687FB9D1266BBF5C004850D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		687FB9D3266BBF5C004850D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		687FB9D6266BBF5C004850D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		687FB9D8266BBF5F004850D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		687FB9DB266BBF5F004850D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		687FB9DD266BBF5F004850D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687FB9E2266BBF60004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aaliyah-Jackson-Unit4-Practial-Exam-2021Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		687FB9E6266BBF60004850D1 /* Aaliyah_Jackson_Unit4_Practial_Exam_2021Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aaliyah_Jackson_Unit4_Practial_Exam_2021Tests.swift; sourceTree = "<group>"; };
+		687FB9E8266BBF60004850D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687FB9ED266BBF60004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aaliyah-Jackson-Unit4-Practial-Exam-2021UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		687FB9F1266BBF60004850D1 /* Aaliyah_Jackson_Unit4_Practial_Exam_2021UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aaliyah_Jackson_Unit4_Practial_Exam_2021UITests.swift; sourceTree = "<group>"; };
+		687FB9F3266BBF60004850D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		687FB9C9266BBF5C004850D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687FB9DF266BBF60004850D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687FB9EA266BBF60004850D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		687FB9C3266BBF5C004850D1 = {
+			isa = PBXGroup;
+			children = (
+				687FB9CE266BBF5C004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021 */,
+				687FB9E5266BBF60004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021Tests */,
+				687FB9F0266BBF60004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021UITests */,
+				687FB9CD266BBF5C004850D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		687FB9CD266BBF5C004850D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				687FB9CC266BBF5C004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021.app */,
+				687FB9E2266BBF60004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021Tests.xctest */,
+				687FB9ED266BBF60004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		687FB9CE266BBF5C004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021 */ = {
+			isa = PBXGroup;
+			children = (
+				687FB9CF266BBF5C004850D1 /* AppDelegate.swift */,
+				687FB9D1266BBF5C004850D1 /* SceneDelegate.swift */,
+				687FB9D3266BBF5C004850D1 /* ViewController.swift */,
+				687FB9D5266BBF5C004850D1 /* Main.storyboard */,
+				687FB9D8266BBF5F004850D1 /* Assets.xcassets */,
+				687FB9DA266BBF5F004850D1 /* LaunchScreen.storyboard */,
+				687FB9DD266BBF5F004850D1 /* Info.plist */,
+			);
+			path = "Aaliyah-Jackson-Unit4-Practial-Exam-2021";
+			sourceTree = "<group>";
+		};
+		687FB9E5266BBF60004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021Tests */ = {
+			isa = PBXGroup;
+			children = (
+				687FB9E6266BBF60004850D1 /* Aaliyah_Jackson_Unit4_Practial_Exam_2021Tests.swift */,
+				687FB9E8266BBF60004850D1 /* Info.plist */,
+			);
+			path = "Aaliyah-Jackson-Unit4-Practial-Exam-2021Tests";
+			sourceTree = "<group>";
+		};
+		687FB9F0266BBF60004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021UITests */ = {
+			isa = PBXGroup;
+			children = (
+				687FB9F1266BBF60004850D1 /* Aaliyah_Jackson_Unit4_Practial_Exam_2021UITests.swift */,
+				687FB9F3266BBF60004850D1 /* Info.plist */,
+			);
+			path = "Aaliyah-Jackson-Unit4-Practial-Exam-2021UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		687FB9CB266BBF5C004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687FB9F6266BBF60004850D1 /* Build configuration list for PBXNativeTarget "Aaliyah-Jackson-Unit4-Practial-Exam-2021" */;
+			buildPhases = (
+				687FB9C8266BBF5C004850D1 /* Sources */,
+				687FB9C9266BBF5C004850D1 /* Frameworks */,
+				687FB9CA266BBF5C004850D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aaliyah-Jackson-Unit4-Practial-Exam-2021";
+			productName = "Aaliyah-Jackson-Unit4-Practial-Exam-2021";
+			productReference = 687FB9CC266BBF5C004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021.app */;
+			productType = "com.apple.product-type.application";
+		};
+		687FB9E1266BBF60004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687FB9F9266BBF60004850D1 /* Build configuration list for PBXNativeTarget "Aaliyah-Jackson-Unit4-Practial-Exam-2021Tests" */;
+			buildPhases = (
+				687FB9DE266BBF60004850D1 /* Sources */,
+				687FB9DF266BBF60004850D1 /* Frameworks */,
+				687FB9E0266BBF60004850D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				687FB9E4266BBF60004850D1 /* PBXTargetDependency */,
+			);
+			name = "Aaliyah-Jackson-Unit4-Practial-Exam-2021Tests";
+			productName = "Aaliyah-Jackson-Unit4-Practial-Exam-2021Tests";
+			productReference = 687FB9E2266BBF60004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		687FB9EC266BBF60004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687FB9FC266BBF60004850D1 /* Build configuration list for PBXNativeTarget "Aaliyah-Jackson-Unit4-Practial-Exam-2021UITests" */;
+			buildPhases = (
+				687FB9E9266BBF60004850D1 /* Sources */,
+				687FB9EA266BBF60004850D1 /* Frameworks */,
+				687FB9EB266BBF60004850D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				687FB9EF266BBF60004850D1 /* PBXTargetDependency */,
+			);
+			name = "Aaliyah-Jackson-Unit4-Practial-Exam-2021UITests";
+			productName = "Aaliyah-Jackson-Unit4-Practial-Exam-2021UITests";
+			productReference = 687FB9ED266BBF60004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		687FB9C4266BBF5C004850D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					687FB9CB266BBF5C004850D1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					687FB9E1266BBF60004850D1 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 687FB9CB266BBF5C004850D1;
+					};
+					687FB9EC266BBF60004850D1 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 687FB9CB266BBF5C004850D1;
+					};
+				};
+			};
+			buildConfigurationList = 687FB9C7266BBF5C004850D1 /* Build configuration list for PBXProject "Aaliyah-Jackson-Unit4-Practial-Exam-2021" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 687FB9C3266BBF5C004850D1;
+			productRefGroup = 687FB9CD266BBF5C004850D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				687FB9CB266BBF5C004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021 */,
+				687FB9E1266BBF60004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021Tests */,
+				687FB9EC266BBF60004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		687FB9CA266BBF5C004850D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687FB9DC266BBF5F004850D1 /* LaunchScreen.storyboard in Resources */,
+				687FB9D9266BBF5F004850D1 /* Assets.xcassets in Resources */,
+				687FB9D7266BBF5C004850D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687FB9E0266BBF60004850D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687FB9EB266BBF60004850D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		687FB9C8266BBF5C004850D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687FB9D4266BBF5C004850D1 /* ViewController.swift in Sources */,
+				687FB9D0266BBF5C004850D1 /* AppDelegate.swift in Sources */,
+				687FB9D2266BBF5C004850D1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687FB9DE266BBF60004850D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687FB9E7266BBF60004850D1 /* Aaliyah_Jackson_Unit4_Practial_Exam_2021Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687FB9E9266BBF60004850D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687FB9F2266BBF60004850D1 /* Aaliyah_Jackson_Unit4_Practial_Exam_2021UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		687FB9E4266BBF60004850D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 687FB9CB266BBF5C004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021 */;
+			targetProxy = 687FB9E3266BBF60004850D1 /* PBXContainerItemProxy */;
+		};
+		687FB9EF266BBF60004850D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 687FB9CB266BBF5C004850D1 /* Aaliyah-Jackson-Unit4-Practial-Exam-2021 */;
+			targetProxy = 687FB9EE266BBF60004850D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		687FB9D5266BBF5C004850D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687FB9D6266BBF5C004850D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		687FB9DA266BBF5F004850D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687FB9DB266BBF5F004850D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		687FB9F4266BBF60004850D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		687FB9F5266BBF60004850D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		687FB9F7266BBF60004850D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aaliyah-Jackson-Unit4-Practial-Exam-2021/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-inc.Aaliyah-Jackson-Unit4-Practial-Exam-2021";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		687FB9F8266BBF60004850D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aaliyah-Jackson-Unit4-Practial-Exam-2021/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-inc.Aaliyah-Jackson-Unit4-Practial-Exam-2021";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		687FB9FA266BBF60004850D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aaliyah-Jackson-Unit4-Practial-Exam-2021Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-inc.Aaliyah-Jackson-Unit4-Practial-Exam-2021Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aaliyah-Jackson-Unit4-Practial-Exam-2021.app/Aaliyah-Jackson-Unit4-Practial-Exam-2021";
+			};
+			name = Debug;
+		};
+		687FB9FB266BBF60004850D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aaliyah-Jackson-Unit4-Practial-Exam-2021Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-inc.Aaliyah-Jackson-Unit4-Practial-Exam-2021Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aaliyah-Jackson-Unit4-Practial-Exam-2021.app/Aaliyah-Jackson-Unit4-Practial-Exam-2021";
+			};
+			name = Release;
+		};
+		687FB9FD266BBF60004850D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aaliyah-Jackson-Unit4-Practial-Exam-2021UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-inc.Aaliyah-Jackson-Unit4-Practial-Exam-2021UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aaliyah-Jackson-Unit4-Practial-Exam-2021";
+			};
+			name = Debug;
+		};
+		687FB9FE266BBF60004850D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aaliyah-Jackson-Unit4-Practial-Exam-2021UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-inc.Aaliyah-Jackson-Unit4-Practial-Exam-2021UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aaliyah-Jackson-Unit4-Practial-Exam-2021";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		687FB9C7266BBF5C004850D1 /* Build configuration list for PBXProject "Aaliyah-Jackson-Unit4-Practial-Exam-2021" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687FB9F4266BBF60004850D1 /* Debug */,
+				687FB9F5266BBF60004850D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687FB9F6266BBF60004850D1 /* Build configuration list for PBXNativeTarget "Aaliyah-Jackson-Unit4-Practial-Exam-2021" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687FB9F7266BBF60004850D1 /* Debug */,
+				687FB9F8266BBF60004850D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687FB9F9266BBF60004850D1 /* Build configuration list for PBXNativeTarget "Aaliyah-Jackson-Unit4-Practial-Exam-2021Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687FB9FA266BBF60004850D1 /* Debug */,
+				687FB9FB266BBF60004850D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687FB9FC266BBF60004850D1 /* Build configuration list for PBXNativeTarget "Aaliyah-Jackson-Unit4-Practial-Exam-2021UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687FB9FD266BBF60004850D1 /* Debug */,
+				687FB9FE266BBF60004850D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 687FB9C4266BBF5C004850D1 /* Project object */;
+}
